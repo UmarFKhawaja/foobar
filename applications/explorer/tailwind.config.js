@@ -16,5 +16,27 @@ module.exports = {
   theme: {
     extend: {}
   },
+  safelist: [
+    // Button component color styles
+    'bg-blue-500',
+    'dark:bg-blue-400',
+    'bg-red-500',
+    'dark:bg-red-400',
+    'border-blue-500',
+    'dark:border-blue-400',
+    'border-red-500',
+    'dark:border-red-400',
+    'text-blue-500',
+    'dark:text-blue-400',
+    'text-red-500',
+    'dark:text-red-400',
+    // Other static classes used with dynamic styles
+    'text-white',
+    'dark:text-white',
+    'bg-transparent',
+    'rounded-md',
+    'opacity-50',
+    'cursor-not-allowed',
+  ],
   plugins: []
 };
