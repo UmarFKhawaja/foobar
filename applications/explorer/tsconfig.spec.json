@@ -1,0 +1,42 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./temp/jest",
+    "jsx": "react-jsx",
+    "types": [
+      "jest",
+      "node"
+    ],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noUnusedLocals": false
+  },
+  "files": [
+    "test-setup.ts"
+  ],
+  "include": [
+    "jest.config.ts",
+    "**/test.ts",
+    "**/spec.ts",
+    "**/test.tsx",
+    "**/spec.tsx",
+    "**/test.js",
+    "**/spec.js",
+    "**/test.jsx",
+    "**/spec.jsx",
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "**/*.test.tsx",
+    "**/*.spec.tsx",
+    "**/*.test.js",
+    "**/*.spec.js",
+    "**/*.test.jsx",
+    "**/*.spec.jsx",
+    "**/*.d.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}

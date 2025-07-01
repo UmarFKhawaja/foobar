@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Foobar",
+    "owner": "umarfkhawaja",
+    "slug": "foobar-explorer",
+    "version": "0.0.0",
+    "userInterfaceStyle": "automatic",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "foobar",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "cafe.foobar.explorer",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "cafe.foobar.explorer"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "37b4066c-855e-4615-9883-078005c9c2c2"
+      }
+    }
+  }
+}
